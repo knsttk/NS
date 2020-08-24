@@ -1,0 +1,281 @@
+html, body
+{
+    background: linear-gradient(#BCDADC 0%, #F9D3D0 100%);
+    background-repeat: no-repeat;
+}
+body
+{
+    min-width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: SF UI Display;
+    font-style: normal;
+    color: #000000;
+    
+}
+.header
+{
+    height: 53px;
+    min-width: 100%;
+    background: #082C35;
+    z-index: 10;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+}
+.logo
+{
+    height: 60px;
+    margin-left: 54px;
+    margin-right: 54px;
+    transition: 0.3s;
+}
+.logolink
+{
+    border: none;
+    margin: 0;
+}
+.logo:hover
+{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+.search
+{
+    border-radius: 10px;
+    border: 0;
+    width: 290px;
+    height: 24px;
+    outline: none;
+    font-weight: 200;
+    font-size: 18px;
+    text-indent: 50px;
+    margin-right: 38px;
+    margin-top: 14.5px;
+    
+}
+.search::placeholder
+{
+    color: #000000;
+    font-family: SF UI Display;
+    font-style: normal;
+}
+.main-nav
+{
+    position: relative;
+    width: 100%;
+    max-width: 940px;
+    height: 34px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 12px;
+    margin: 0;
+}
+.item-link
+{
+    font-weight: 200;
+    font-size: 24px;
+    color: #ffffff;
+    text-decoration: none;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+}
+.item-link:hover
+{
+    background-size: 100% 2px;
+}
+.city
+{
+    width: auto;
+    font-weight: 500;
+    font-size: 18px;
+    color: #FFFFFF;
+    margin-top: 17px;
+    text-shadow: 0px 2px 1px rgba(0, 0, 0, 0.5);
+    text-decoration: underline;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.main-container
+{
+    width: 1212px;
+    height: 100%;
+    background-color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: -10;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 83px;
+    padding-bottom: 50px;;
+}
+.main-text
+{
+    font-weight: bold;
+    font-size: 24px;
+    color: #074060;
+    display: block;
+    margin-top: 37px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.left-text
+{
+    font-weight: bold;
+    font-size: 24px;
+    color: #074060;
+    margin: 0;
+}
+.new, .popular
+{
+    width: 1212px;
+    height: 303px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.block1, .block2, .block3, .block4, .block5, .block6, .block7, .block8
+{
+    height: 303px;
+    width: 303px;
+    float: left;
+}
+.block1
+{
+    background: #FFC4C4;
+}
+.block2
+{
+    background: #FF8686;
+}
+.block3
+{
+    background: #FF6161;
+}
+.block4
+{
+    background: #FF4545;
+}
+.block5
+{
+    background: #D3FFF2;
+}
+.block6
+{
+    background: #B1FFE8;
+}
+.block7
+{
+    background: #79FFD7;
+}
+.block8
+{
+    background: #24FFBE;
+}
+.payment
+{
+    width: 207px;
+    font-weight: bold;
+    font-size: 24px;
+    color: #074060;
+    display: block;
+    margin: auto;
+}
+.paypic
+{
+    display: block;
+    margin: auto;
+    margin-top: 35px;
+}
+.footer
+{
+    width: 500px;
+    margin: auto;
+}
+.logodown
+{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+/* КАТАЛОГ */
+.goods
+{
+    width: 1138px;
+    height: 313px;
+    margin: auto;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.good
+{
+    height: 284px;
+    width: 284px;
+    background-color: #E2E2E2;
+    border-radius: 26px;
+    margin: auto;
+    transition: 0.3s;
+}
+.good:hover
+{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+.descriptions1, .descriptions2, .descriptions3
+{
+    width: 850px;
+    height: 30px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.descriptions2
+{
+    width: 830px;
+}
+.good-desc
+{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    color: #074060;
+    margin: 0;
+}
+/* Контакты */
+.map
+{
+    display: block;
+    margin: auto;
+    width: 1100px;
+}
+.contacts
+{
+    margin-top: 37px;
+    width: 600px;
+    height: 327px;
+    margin-bottom: 50px;
+}
+.phonect, .vkct, .instct
+{
+    width: 600px;
+    height: 70px;
+    margin-bottom: 60px;
+}
+.phone-contact, .vk-contact, .inst-contact
+{
+    float: left;
+    margin-right: 20px;
+}
+.contact-text
+{
+    margin: 0;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 36px;
+    color: #000000;
+    margin-left: 20px;
+    text-align: left;
+    width: 550px;
+}
